@@ -6,7 +6,7 @@ $P(n_i) = \frac{e^{-E_i/k_b T}}{Z}$
 
 This project aims to explore the distribution of particles within the energy levels of the system upon reaching equilibrium. Additionally, it aims to unveil how the system's behaviour varies concerning different parameters, such as the length of the wells. To achieve this, we will use the Monte Carlo approach with the Metropolis algorithm in which we make the system evolve according to certain probabilities. We aim to show how temperature affects the final distribution of particles on energy levels, the stability of the system, and the convergence of simulation results.
 
-![Potenciales](https://github.com/samuelquitiang/HotBoxes/assets/53834570/66a53846-9845-46b1-90f9-aaeea9430fb4)
+<img src="https://github.com/samuelquitiang/HotBoxes/assets/53834570/66a53846-9845-46b1-90f9-aaeea9430fb4" alt="Potenciales" style="width:300px;">
 
 In this case, the initial state of the system can be expressed as:
 $n_0 = (4, 3, 2, ..., 4)$
@@ -52,21 +52,21 @@ In this project, we tried to get the heat capacity from the evolution of the sys
 
 # Results - Graphics
 
-![T100](https://github.com/samuelquitiang/HotBoxes/assets/53834570/f226dc94-0798-41c8-9edc-067b5c17841d)
+<img src="https://github.com/samuelquitiang/HotBoxes/assets/53834570/f226dc94-0798-41c8-9edc-067b5c17841d" alt="T100" style="width:300px;">
 
 This figure shows the behaviour of the system when the reservoir temperature is at $100 K$. At the beginning, the system has high energy, but after several iterations, the energy starts to decay, and eventually, it oscillates around a medium energy value. This oscillation shows minimal variation around the average value for this temperature. 
 
-![T1800](https://github.com/samuelquitiang/HotBoxes/assets/53834570/350c0258-28c3-4e14-84fe-1ceddcd671d8)
+<img src="https://github.com/samuelquitiang/HotBoxes/assets/53834570/350c0258-28c3-4e14-84fe-1ceddcd671d8" alt="T1800" style="width:300px;">
 
 The figure shows the system's behaviour when it is in contact with a thermal bath at a temperature of $2500K$. Similar to the previous case, the system starts with high energy, decreases gradually, and oscillates around a certain energy value. However, in this case, the oscillation is more significant as compared to the ones observed when the initial temperature was $100K$.
 
-![Histogram](https://github.com/samuelquitiang/HotBoxes/assets/53834570/d1eef453-e8aa-4cf0-9dcd-fd57b03780ac)
+<img src="https://github.com/samuelquitiang/HotBoxes/assets/53834570/d1eef453-e8aa-4cf0-9dcd-fd57b03780ac" alt="Histogram" style="width:300px;">
 Upon reaching the equilibrium, the system the occupation state distribution follows the Maxwell-Boltzmann distribution,
 this distribution describes the probability of finding particles at various energy levels within the system, reflecting the thermal equilibrium achieved under the specified conditions. On this case, the higher energy levels are less likely to be occupied.
 
-![TvsE](https://github.com/samuelquitiang/HotBoxes/assets/53834570/6e2b25c4-15bd-4497-af06-921ccb22b78a)
+<img src="https://github.com/samuelquitiang/HotBoxes/assets/53834570/6e2b25c4-15bd-4497-af06-921ccb22b78a" alt="TvsE" style="width:300px;">
 In this Figure is presented how the total energy of the system exhibits a linear increase with the temperature of the thermal reservoir, indicating a direct correlation between temperature and energy content. This observation follows the fundamental principle of thermodynamics, where higher temperatures lead to greater energy contributions within the system.
 
-![EvsL](https://github.com/samuelquitiang/HotBoxes/assets/53834570/864fa088-643f-41a5-92d5-89099d15a628)
+<img src="https://github.com/samuelquitiang/HotBoxes/assets/53834570/864fa088-643f-41a5-92d5-89099d15a628" alt="EvsL" style="width:300px;">
 
 The relationship between the total energy and the length of the potential well, as the previous image, reveals an inverse exponential function. This trend suggests that narrower wells result in significantly higher energy compared to wider ones, implying a sensitivity of the system's energy state to variations in well dimensions.
